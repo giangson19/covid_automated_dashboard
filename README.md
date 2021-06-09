@@ -10,7 +10,10 @@ The tasks in this first part include:
 1. ✅ Import and Explore the Data using SQL Server. 
 2. ✅ Bonus: Connect the data with Excel to show query results (which will be used to as the data source for the dashboard).
 3. ✅ Build [a static dashboard](https://public.tableau.com/views/CovidAnalysisProject/Dashboard1), using Tableau.<br>
-<img src="https://user-images.githubusercontent.com/69233484/120920799-da2d9780-c6ea-11eb-89b5-adae8679e59f.png" alt="Dashboard" width="50%"/>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/69233484/121325062-7ea61880-c93b-11eb-8388-19ec8a0b9806.png" alt="Static Dashboard" width="70%"/>
+</p>
 
 *Note: Everything in this part is located in their own folder `Data Exploration`*
 
@@ -26,10 +29,10 @@ That's why the tasks in **PART II** will look a bit different:
 4. ✅ Bonus: Commit and push all the changes (in the data files, update log, etc) to github, using a batch file. <br>
 *(The code for step 4 is in `push_to_git.txt`.)*
 5. ✅ Schedule all the previous steps to run daily, using Task Scheduler.
-6. ⏳ Construct [a live Tableau dashboard](https://public.tableau.com/app/profile/giang.son/viz/Book1_16231166790080/Dashboard1) that feeds data from the Google Sheets. Tableau will then takes care of the daily data refresh. 
+6. ⏳ Construct [a live Tableau dashboard](https://public.tableau.com/app/profile/giang.son/viz/Book1_16231166790080/Dashboard1) that feeds data from the Google Sheets. Tableau will then takes care of the daily data refresh. <br> *(I'm still waiting to see if it actually refreshes without my involvement*
 7. ⏳ Bonus: Write a blog post about how I figured this entire thing out.
 
-*Note:
+*Note:*
 - *The files for **PART II** will reside in the root directory.*
 - *A few of the steps (eg: import to SQL then query from the database) were only there because I was building upon **Part I**. In practice, this process could be simplified depending on the use case (eg: it's possible SQL can be skipped altogether).*
 
