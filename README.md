@@ -9,8 +9,9 @@ In the first part, I followed Freberg's ideas in his videos [here](https://youtu
 The tasks in this first part include:
 1. ✅ Import and Explore the Data using SQL Server. 
 2. ✅ Bonus: Connect the data with Excel to show query results (which will be used to as the data source for the dashboard).
-3. ✅ Build [a dashboard](https://public.tableau.com/views/CovidAnalysisProject/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link), using Tableau.<br>
+3. ✅ Build [a static dashboard](https://public.tableau.com/views/CovidAnalysisProject/Dashboard1), using Tableau.<br>
 <img src="https://user-images.githubusercontent.com/69233484/120920799-da2d9780-c6ea-11eb-89b5-adae8679e59f.png" alt="Dashboard" width="50%"/>
+
 *Note: Everything in this part is located in their own folder `Data Exploration`*
 
 ## PART II: Automate Everything ⏳
@@ -25,10 +26,11 @@ That's why the tasks in **PART II** will look a bit different:
 4. ✅ Bonus: Commit and push all the changes (in the data files, update log, etc) to github, using a batch file. <br>
 *(The code for step 4 is in `push_to_git.txt`.)*
 5. ✅ Schedule all the previous steps to run daily, using Task Scheduler.
-6. ⏳ Construct a live Tableau dashboard that feeds data from the Google Sheets. Tableau will then takes care of the daily data refresh. 
+6. ⏳ Construct [a live Tableau dashboard](https://public.tableau.com/app/profile/giang.son/viz/Book1_16231166790080/Dashboard1) that feeds data from the Google Sheets. Tableau will then takes care of the daily data refresh. 
 7. ⏳ Bonus: Write a blog post about how I figured this entire thing out.
 
-*Note: A few of the steps (eg: import to SQL then query from the database) were only there because I was building upon ***Part I***. In practice, this process could be simplified according to the use case (eg: it's possible SQL can be skipped altogether).*
+*Note:
+- *The files for **PART II** will reside in the root directory.*
+- *A few of the steps (eg: import to SQL then query from the database) were only there because I was building upon **Part I**. In practice, this process could be simplified depending on the use case (eg: it's possible SQL can be skipped altogether).*
 
 
-All the data, code, and final products of this project will be included in this directory.
