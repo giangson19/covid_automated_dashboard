@@ -1,5 +1,5 @@
 # COVID AUTOMATED DASHBOARD PROJECT
-Hello, this is the repository for Covid-19 analysis project, inspired by Alex Freberg.
+Hello, this is the repository for Covid-19 Automated Dashboard. I was initially inspired by Alex Freberg, but I then expanded the projectto include some cool automation.
 
 I have split this project up into 2 parts:
 
