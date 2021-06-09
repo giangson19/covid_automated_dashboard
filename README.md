@@ -1,4 +1,4 @@
-# Covid Analysis Project
+# COVID AUTOMATED DASHBOARD PROJECT
 Hello, this is the repository for Covid-19 analysis project, inspired by Alex Freberg.
 
 I have split this project up into 2 parts:
@@ -25,7 +25,7 @@ That's why the tasks in **PART II** will look a bit different:
 5. ✅ Schedule all the previous steps to run daily, using Task Scheduler.
 6. ⏳ Construct a live Tableau dashboard that feeds data from the Google Sheets. Tableau will then takes care of the daily data refresh. 
 
-*Note: A few of the steps (eg: import to SQL then query from the database) were only there because I was building upon ***Part I***. In practice, this process could be simplified according to the case requirements (eg: it's possible SQL can be skipped altogether).*
+*Note: A few of the steps (eg: import to SQL then query from the database) were only there because I was building upon ***Part I***. In practice, this process could be simplified according to the use case (eg: it's possible SQL can be skipped altogether).*
 
 
 All the data, code, and final products of this project will be included in this directory.
