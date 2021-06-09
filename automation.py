@@ -19,8 +19,8 @@ covid_data = pd.read_csv('https://covid.ourworldindata.org/data/owid-covid-data.
 covid_deaths = pd.concat([covid_data.iloc[:,:4],pd.DataFrame(covid_data['population']),covid_data.iloc[:,4:25]], axis = 1)
 covid_vaccinations = pd.concat([covid_data.iloc[:,:4],covid_data.iloc[:,25:44],covid_data.iloc[:,45:]],axis =1)
 # Save them as csv
-covid_deaths.to_csv('D:\JupyterNotebooks\covid_analysis_project\data\covid_deaths.csv',index = False)
-covid_vaccinations.to_csv('D:\JupyterNotebooks\covid_analysis_project\data\covid_vaccinations.csv',index = False)
+covid_deaths.to_csv('D:\JupyterNotebooks\covid_automated_dashboard\data\covid_deaths.csv',index = False)
+covid_vaccinations.to_csv('D:\JupyterNotebooks\covid_automated_dashboard\data\covid_vaccinations.csv',index = False)
 
 
 # In[3]:
@@ -81,7 +81,7 @@ CREATE TABLE [dbo].[covid_deaths](
 ) ON [PRIMARY];
 
 BULK INSERT [covid_deaths]
-FROM 'D:\JupyterNotebooks\covid_analysis_project\data\covid_deaths.csv'
+FROM 'D:\JupyterNotebooks\covid_automated_dashboard\data\covid_deaths.csv'
 WITH(FORMAT ='CSV',FIRSTROW = 2)
 '''
 
@@ -147,7 +147,7 @@ CREATE TABLE [dbo].[covid_vaccinations](
 
 
 BULK INSERT [covid_vaccinations]
-FROM 'D:\JupyterNotebooks\covid_analysis_project\data\covid_vaccinations.csv'
+FROM 'D:\JupyterNotebooks\covid_automated_dashboard\data\covid_vaccinations.csv'
 WITH(FORMAT ='CSV',FIRSTROW = 2)
 '''
 
