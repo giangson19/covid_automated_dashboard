@@ -1,5 +1,5 @@
 # COVID AUTOMATED DASHBOARD PROJECT
-Hello, this is the repository for Covid-19 Automated Dashboard. I was initially inspired by Alex Freberg, but I then expanded the projectto include some cool automation.
+Hello, this is the repository for Covid-19 Automated Dashboard. I was initially inspired by Alex Freberg, but I then expanded the project to include some cool automation.
 
 I have split this project up into 2 parts:
 
@@ -20,10 +20,13 @@ Due to limitations with the tools I use, (eg: Tableau can only refreshes data if
 That's why the tasks in **PART II** will look a bit different: 
 1. ✅ Download and manipulate the data and save as 2 files (similar to **PART I**), using Python.
 2. ✅ Import the data into SQL Server database (as 2 tables), using Python. Also: Must be done in a way that enables daily updates.
-3. ✅ Query the necessary data and save query results to a Google Sheets, using Python. Also: Write an update log when the data is updated.
-4. ✅ Bonus: Commit and push all the changes (in the data files, update log, etc) to github, using a batch file.
+3. ✅ Query the necessary data and save query results to a Google Sheets, using Python. Also: Write an update log when the data is updated. <br>
+*(The code for the fist 3 steps is in `automation.py`.)*
+4. ✅ Bonus: Commit and push all the changes (in the data files, update log, etc) to github, using a batch file. <br>
+*(The code for step 4 is in `push_to_git.txt`.)*
 5. ✅ Schedule all the previous steps to run daily, using Task Scheduler.
 6. ⏳ Construct a live Tableau dashboard that feeds data from the Google Sheets. Tableau will then takes care of the daily data refresh. 
+7. ⏳ Bonus: Write a blog post about how I figured this entire thing out.
 
 *Note: A few of the steps (eg: import to SQL then query from the database) were only there because I was building upon ***Part I***. In practice, this process could be simplified according to the use case (eg: it's possible SQL can be skipped altogether).*
 
