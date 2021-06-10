@@ -164,7 +164,7 @@ conn.commit()
 
 # Connect to Google Sheets using pygsheets library and the Google Sheets API with my credentials
 import pygsheets
-creds = 'D:\JupyterNotebooks\covid_automated_dashboard\client_secret.json'
+creds = 'D:\JupyterNotebooks\covid_automated_dashboard\pygsheet_secret.json'
 api = pygsheets.authorize(service_file=creds)
 
 # Open the workbook that contains the final output
