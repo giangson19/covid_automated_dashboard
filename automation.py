@@ -18,6 +18,9 @@ covid_data = pd.read_csv('https://covid.ourworldindata.org/data/owid-covid-data.
 # Modify the data into 2 tables
 covid_deaths = pd.concat([covid_data.iloc[:,:4],pd.DataFrame(covid_data['population']),covid_data.iloc[:,4:25]], axis = 1)
 covid_vaccinations = pd.concat([covid_data.iloc[:,:4],covid_data.iloc[:,25:44],covid_data.iloc[:,45:]],axis =1)
+
+if 'excess_mortality' in covid_vaccinations.columns:
+    covid_vaccinations.drop(columns = ['excess_mortality'], inplace = True)
 # Save them as csv
 covid_deaths.to_csv('D:\JupyterNotebooks\covid_automated_dashboard\data\covid_deaths.csv',index = False)
 covid_vaccinations.to_csv('D:\JupyterNotebooks\covid_automated_dashboard\data\covid_vaccinations.csv',index = False)
@@ -161,7 +164,7 @@ conn.commit()
 
 # Connect to Google Sheets using pygsheets library and the Google Sheets API with my credentials
 import pygsheets
-creds = 'D:\Coding\pygsheet_secret.json'
+creds = 'D:\JupyterNotebooks\covid_automated_dashboard\client_secret.json'
 api = pygsheets.authorize(service_file=creds)
 
 # Open the workbook that contains the final output
