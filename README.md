@@ -22,15 +22,14 @@ As the name suggest, I have built upon the first part and automate every-single-
 
 Due to limitations with the tools I use, (eg: Tableau can only refreshes data if it comes from Google Sheets, but Google Sheets does not connect to SQL Server - at least seamlessly), I had to find several workarounds. <br>
 That's why the tasks in **PART II** will look a bit different: 
-1. ✅ Download and manipulate the data and save as 2 files (similar to **PART I**), using Python.
-2. ✅ Import the data into SQL Server database (as 2 tables), using Python. Also: Must be done in a way that enables daily updates.
-3. ✅ Query the necessary data and save query results to a Google Sheets, using Python. Also: Write an update log when the data is updated. <br>
-*(The code for the first 3 steps is in `automation.py`.)*
-4. ✅ Bonus: Commit and push all the changes (in the data files, update log, etc) to github, using a batch file. <br>
-*(The code for step 4 is in `push_to_git.txt`.)*
-5. ✅ Schedule all the previous steps to run daily, using Task Scheduler.
-6. ⏳ Construct [a live Tableau dashboard](https://public.tableau.com/app/profile/giang.son/viz/Book1_16231166790080/Dashboard1) that feeds data from the Google Sheets. Tableau will then takes care of the daily data refresh. <br> *(I'm still waiting to see if it actually refreshes without my involvement*
-7. ⏳ Bonus: Write a blog post about how I figured this entire thing out.
+1. ✅ Write a Python script that:
+    1. ✅ Download and manipulate the data and save as 2 files (similar to **PART I**), using Python.
+    2. ✅ Import the data into SQL Server database (as 2 tables), using Python. Also: Must be done in a way that enables daily updates.
+    3. ✅ Query the necessary data and save query results to a Google Sheets, using Python. Also: Write an update log when the data is updated. 
+2. ✅ Schedule all the previous steps to run daily, using Task Scheduler.
+3. ✅ Construct [a live Tableau dashboard](https://public.tableau.com/app/profile/giang.son/viz/Book1_16231166790080/Dashboard1) that feeds data from the Google Sheets. Tableau will then takes care of the daily data refresh.
+4. ✅ Optional: Commit and push all the changes (in the data files, update log, etc) to github, using a batch file. <br>
+5. ⏳ Bonus: Write a blog post about how I figured this entire thing out.
 
 *Note:*
 - *The files for **PART II** will reside in the root directory.*
