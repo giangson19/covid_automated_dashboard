@@ -3,7 +3,8 @@ Hello, this is the repository for Covid-19 Automated Dashboard. I was initially 
 
 For a more detailed look into this project, check out my blog post: <br>
 [Making a Tableau Dashboard that Updates Automatically (using Python)](https://www.notion.so/gsws/Making-a-Tableau-Dashboard-that-Updates-Automatically-using-Python-e887a9912cbf46fab168c7926e627d3f)
-
+Check out my live dashboard at this link: <br>
+[Automated COVID Stats Dashboard](https://public.tableau.com/app/profile/giang.son/viz/shared/6YFNC278H)
 
 I have split this project up into 2 parts:
 
@@ -31,7 +32,7 @@ That's why the tasks in **PART II** will look a bit different:
     2. ✅ Import the data into SQL Server database (as 2 tables), using Python. Also: Must be done in a way that enables daily updates.
     3. ✅ Query the necessary data and save query results to a Google Sheets, using Python. Also: Write an update log when the data is updated. 
 2. ✅ Schedule all the previous steps to run daily, using Task Scheduler.
-3. ✅ Construct [a live Tableau dashboard](https://public.tableau.com/app/profile/giang.son/viz/Book1_16231166790080/Dashboard1) that feeds data from the Google Sheets. Tableau will then takes care of the daily data refresh.
+3. ✅ Construct [a live Tableau dashboard](https://public.tableau.com/app/profile/giang.son/viz/shared/6YFNC278H) that feeds data from the Google Sheets. Tableau will then takes care of the daily data refresh.
 4. ✅ Optional: Commit and push all the changes (in the data files, update log, etc) to github, using a batch file. <br>
 5. ✅ Bonus: Write [a blog post](https://www.notion.so/gsws/Making-a-Tableau-Dashboard-that-Updates-Automatically-using-Python-e887a9912cbf46fab168c7926e627d3f) about how I figured this entire thing out.
 
