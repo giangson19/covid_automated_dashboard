@@ -2,7 +2,7 @@
 Hello, this is the repository for Covid-19 Automated Dashboard. I was initially inspired by Alex Freberg, but I then expanded the project to include some cool automation.
 
 For a more detailed look into this project, check out my blog post: <br>
-[Making a Tableau Dashboard that Updates Automatically (using Python)](https://www.notion.so/gsws/Making-a-Tableau-Dashboard-that-Updates-Automatically-using-Python-e887a9912cbf46fab168c7926e627d3f)
+[Making a Tableau Dashboard that Updates Automatically (using Python)](https://www.notion.so/gsws/Making-a-Tableau-Dashboard-that-Updates-Automatically-using-Python-e887a9912cbf46fab168c7926e627d3f) <br>
 Check out my live dashboard at this link: <br>
 [Automated COVID Stats Dashboard](https://public.tableau.com/app/profile/giang.son/viz/shared/6YFNC278H)
 
@@ -27,10 +27,10 @@ As the name suggest, I have built upon the first part and automate every-single-
 
 Due to limitations with the tools I use, (eg: Tableau can only refreshes data if it comes from Google Sheets, but Google Sheets does not connect to SQL Server - at least seamlessly), I had to find several workarounds. <br>
 That's why the tasks in **PART II** will look a bit different: 
-1. ✅ Write a Python script that:
-    1. ✅ Download and manipulate the data and save as 2 files (similar to **PART I**), using Python.
-    2. ✅ Import the data into SQL Server database (as 2 tables), using Python. Also: Must be done in a way that enables daily updates.
-    3. ✅ Query the necessary data and save query results to a Google Sheets, using Python. Also: Write an update log when the data is updated. 
+1. ✅ Write a [Python script](https://github.com/mrleopesvn/covid_automated_dashboard/blob/main/automation.py) that:
+    1. ✅ Download and manipulate the data and save as 2 files (similar to **PART I**).
+    2. ✅ Import the data into SQL Server database (as 2 tables). Also: Must be done in a way that enables daily updates.
+    3. ✅ Query the necessary data and save query results to a Google Sheets. Also: Write an update log when the data is updated. 
 2. ✅ Schedule all the previous steps to run daily, using Task Scheduler.
 3. ✅ Construct [a live Tableau dashboard](https://public.tableau.com/app/profile/giang.son/viz/shared/6YFNC278H) that feeds data from the Google Sheets. Tableau will then takes care of the daily data refresh.
 4. ✅ Optional: Commit and push all the changes (in the data files, update log, etc) to github, using a batch file. <br>
