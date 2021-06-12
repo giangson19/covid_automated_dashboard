@@ -1,6 +1,10 @@
 # COVID AUTOMATED DASHBOARD PROJECT
 Hello, this is the repository for Covid-19 Automated Dashboard. I was initially inspired by Alex Freberg, but I then expanded the project to include some cool automation.
 
+For a more detailed look into this project, check out my blog post: <br>
+[Making a Tableau Dashboard that Updates Automatically (using Python)](https://www.notion.so/gsws/Making-a-Tableau-Dashboard-that-Updates-Automatically-using-Python-e887a9912cbf46fab168c7926e627d3f)
+
+
 I have split this project up into 2 parts:
 
 ## PART I: Data Exploration ✅
@@ -29,7 +33,7 @@ That's why the tasks in **PART II** will look a bit different:
 2. ✅ Schedule all the previous steps to run daily, using Task Scheduler.
 3. ✅ Construct [a live Tableau dashboard](https://public.tableau.com/app/profile/giang.son/viz/Book1_16231166790080/Dashboard1) that feeds data from the Google Sheets. Tableau will then takes care of the daily data refresh.
 4. ✅ Optional: Commit and push all the changes (in the data files, update log, etc) to github, using a batch file. <br>
-5. ⏳ Bonus: Write a blog post about how I figured this entire thing out.
+5. ✅ Bonus: Write [a blog post](https://www.notion.so/gsws/Making-a-Tableau-Dashboard-that-Updates-Automatically-using-Python-e887a9912cbf46fab168c7926e627d3f) about how I figured this entire thing out.
 
 *Note:*
 - *The files for **PART II** will reside in the root directory.*
