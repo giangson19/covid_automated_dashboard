@@ -2,9 +2,9 @@
 Hello, this is the repository for Covid-19 Automated Dashboard. I was initially inspired by Alex Freberg, but I then expanded the project to include some cool automation.
 
 For a more detailed look into this project, check out my blog post: <br>
-[Making a Tableau Dashboard that Updates Automatically (using Python)](https://www.notion.so/gsws/Making-a-Tableau-Dashboard-that-Updates-Automatically-using-Python-e887a9912cbf46fab168c7926e627d3f) <br>
+[***Making a Tableau Dashboard that Updates Automatically (using Python)***](https://www.notion.so/gsws/Making-a-Tableau-Dashboard-that-Updates-Automatically-using-Python-e887a9912cbf46fab168c7926e627d3f) <br>
 Check out my live dashboard at this link: <br>
-[Automated COVID Stats Dashboard](https://public.tableau.com/app/profile/giang.son/viz/shared/6YFNC278H)
+[***Automated COVID Stats Dashboard***](https://public.tableau.com/app/profile/giang.son/viz/shared/6YFNC278H)
 
 I have split this project up into 2 parts:
 
