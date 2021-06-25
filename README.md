@@ -22,7 +22,7 @@ The tasks in this first part include:
 
 *Note: Everything in this part is located in their own folder `Data Exploration`*
 
-## PART II: Automate Everything ⏳
+## PART II: Automate Everything ✅
 As the name suggest, I have built upon the first part and automate every-single-part of the project so that the Dashboard will maintain itself without me lifting a finger.
 
 Due to limitations with the tools I use, (eg: Tableau can only refreshes data if it comes from Google Sheets, but Google Sheets does not connect to SQL Server - at least seamlessly), I had to find several workarounds. <br>
@@ -33,7 +33,7 @@ That's why the tasks in **PART II** will look a bit different:
     3. ✅ Query the necessary data and save query results to a Google Sheets. Also: Write an update log when the data is updated. 
 2. ✅ Schedule all the previous steps to run daily, using Task Scheduler.
 3. ✅ Construct [a live Tableau dashboard](https://public.tableau.com/app/profile/giang.son/viz/shared/6YFNC278H) that feeds data from the Google Sheets. Tableau will then takes care of the daily data refresh.
-4. ✅ Optional: Commit and push all the changes (in the data files, update log, etc) to github, using a batch file. <br>
+4. ✅ Optional: Commit and push all the changes (in the data files, update log, etc) to github, using a batch file. <br> *I will stop auto-committing to github on Jun 26, 2021 because I can't figure out how to work with Personal Access Token.*
 5. ✅ Bonus: Write [a blog post](https://www.notion.so/gsws/Making-a-Tableau-Dashboard-that-Updates-Automatically-using-Python-e887a9912cbf46fab168c7926e627d3f) about how I figured this entire thing out.
 
 *Note:*
